@@ -1,7 +1,7 @@
 package tanks
 
 import (
-	"codetanks/pkg/commands"
+	"github.com/code-tanks/golang-api/pkg/commands"
 	"sync"
 )
 

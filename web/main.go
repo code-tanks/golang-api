@@ -1,7 +1,7 @@
 package main
 
 import (
-	"codetanks/pkg/tanks"
+	"github.com/code-tanks/golang-api/pkg/tanks"
 	"encoding/json"
 	"log"
 	"net/http"
