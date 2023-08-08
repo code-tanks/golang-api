@@ -1,3 +1,3 @@
-module github.com/code-tanks/golang-api
+module codetanks
 
 go 1.20
