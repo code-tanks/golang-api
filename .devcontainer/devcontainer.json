@@ -1,10 +1,10 @@
 {
     "name": "codetanks-golang-devcontainer",
-    // "image": "ghcr.io/code-tanks/code-tanks-golang-devcontainer:latest",
-    "build": {
-        "context": ".",
-        "dockerfile": "Dockerfile"
-    },
+    "image": "ghcr.io/code-tanks/code-tanks-golang-devcontainer:latest",
+    // "build": {
+    //     "context": ".",
+    //     "dockerfile": "Dockerfile"
+    // },
     "customizations": {
         "vscode": {
             "settings": {

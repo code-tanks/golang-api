@@ -12,17 +12,11 @@ type Tank struct {
 }
 
 func (t *Tank) Run() {
-	t.Mu.Lock()
-	defer t.Mu.Unlock()
-
 	t.Commands = append(t.Commands, commands.MOVE_FORWARD)
 	// Add other commands as needed
 }
 
 func (t *Tank) OnEvent(event interface{}) {
-	t.Mu.Lock()
-	defer t.Mu.Unlock()
-
 	t.Commands = append(t.Commands, commands.MOVE_BACKWARD)
 	// Handle the event and add appropriate commands
 }
