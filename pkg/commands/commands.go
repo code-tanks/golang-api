@@ -16,4 +16,6 @@ const (
 	UNLOCK_GUN                     = 1 << 10
 	LOCK_RADAR                     = 1 << 11
 	UNLOCK_RADAR                   = 1 << 12
+	REQUEST_INFO                   = 1 << 13
+	CLEAR_COMMANDS                 = 1 << 14
 )
